@@ -1,0 +1,16 @@
+server:
+  port: 8053
+
+spring:
+  application:
+    name: CONTENT
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8051/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+  server:
+    enable-self-preservation: false

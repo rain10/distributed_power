@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: power-content
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Arain
+Implementation-Vendor-Id: org.arain.power
+Build-Jdk: 1.8.0_92
+Implementation-URL: http://projects.spring.io/spring-boot/power-parent
+ /power-content/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
